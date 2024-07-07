@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Game Reviews</title>
+    <!--icon page-->
+    <link rel="icon" href="./Home/logo-sm.png">
+
+    <!--Css Files-->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel='stylesheet' href='CSS/style.css'>
+
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Nerko+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="loading" id="loading">
+        <!--background image-->
+        <div class="background-image"></div>
+
+        <!--navbar-->
+        <!-- <div class="navbar m-auto w-75 py-2 px-3">
+            <div class="d-flex justify-content-between w-100">
+                <div class="game d-flex">
+                    <img src="./Home/logo-sm.png">
+                    <h1>GAME REVIEWS</h1>
+                </div>
+                <div class="category">
+                    <ul class="text-uppercase d-flex">
+                        <li><a href="#" class="active">mmorpg</a></li>
+                        <li><a href="#">shooter</a></li>
+                        <li><a href="#">sailing</a></li>
+                        <li><a href="#">permadeath</a></li>
+                        <li><a href="#">superhero</a></li>
+                        <li><a href="#">pixel</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div> -->
+        <nav class="navbar navbar-expand-lg m-auto w-75 py-2 px-3">
+            <div class="container-fluid">
+                <div class="game d-flex">
+                    <img src="./Home/logo-sm.png">
+                    <h1>GAME REVIEWS</h1>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="category collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav text-uppercase">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" data-attribute="mmorpg">mmorpg</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#" data-attribute="shooter">shooter</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#" data-attribute="sailing">sailing</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#" data-attribute="permadeath">permadeath</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#" data-attribute="superhero">superhero</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#" data-attribute="pixel">pixel</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--card-->
+        <div class="demo">
+            <div class="container">
+                <div class="row" id="demo">
+                    <!-- <div class="col-lg-3 col-sm-6 col-md-4 my-3">
+                        <div class="card position-relative">
+                            <div class="p-3">
+                                <img src="./34.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="card-title d-flex justify-content-between"><h2>Card title</h2><button>Free</button></div>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="details d-flex justify-content-between px-2 py-2 text-light">
+                                <div style="background-color: #32383E;">MMORPG</div>
+                                <div style="background-color: #32383E;">PC(Windows)</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-md-4 my-3">
+                        <div class="card position-relative">
+                            <div class="p-3">
+                                <img src="./34.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="card-title d-flex justify-content-between"><h2>Card title</h2><button>Free</button></div>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="details d-flex justify-content-between px-2 py-2 text-light">
+                                <div style="background-color: #32383E;">MMORPG</div>
+                                <div style="background-color: #32383E;">PC(Windows)</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-md-4 my-3">
+                        <div class="card position-relative">
+                            <div class="p-3">
+                                <img src="./34.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="card-title d-flex justify-content-between"><h2>Card title</h2><button>Free</button></div>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="details d-flex justify-content-between px-2 py-2 text-light">
+                                <div style="background-color: #32383E;">MMORPG</div>
+                                <div style="background-color: #32383E;">PC(Windows)</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-md-4 my-3">
+                        <div class="card position-relative">
+                            <div class="p-3">
+                                <img src="./34.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="card-title d-flex justify-content-between"><h2>Card title</h2><button>Free</button></div>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="details d-flex justify-content-between px-2 py-2 text-light">
+                                <div style="background-color: #32383E;">MMORPG</div>
+                                <div style="background-color: #32383E;">PC(Windows)</div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--description-->
+    <div class="description text-light" id="description">
+        <!-- <div class="container">
+            <h1 class="my-3" style="display: inline-block;">Details Game</h1>
+            <button class="close" id="btnclose"><i class="fa-solid fa-xmark"></i></button>
+            <div class="row">
+                <div class="col-lg-4 col-md-5 col-sm-12">
+                    <img src="./34.jpg">
+                </div>
+                <div class="col-lg-6 col-md-7 col-sm-12">
+                    <h2>Title: Tarisland</h2>
+                    <p>Category: <span>MMORPG</span></p>
+
+                    <p>Platform: <span>Windows</span></p>
+                    
+                    <p>Status: <span>Live</span></p>
+
+                    <p style="width: 125%; font-size: 14px; line-height: 21px;">Tarisland is a free-to-play cross-platform MMORPG developed by Level Infinite and Published by Tencent. Available on PC and mobile devices, the game allows players to easily move between both, taking the game with them when they can’t be at their desk. The game is designed to appeal to players of MMOs like World of Warcraft, offering players nine playable classes and 18 specializations. Each class features an extensive talent tree system and can be customized. Players of existing MMOs will be familiar with the standard tank, DPS, and healer lineup, necessary for the game’s classic raid and dungeon system. Explore a vast game world and solve mysteries. Pick up various trades such as gathering, mining, and crafting, and sell your items on the auction house.</p>
+
+                    <button class="btn btn-outline-warning">Show Game</button>
+                </div>
+            </div>
+            
+        </div> -->
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="JS/main.js" type="module"></script>
+</body>

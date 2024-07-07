@@ -1,0 +1,161 @@
+/* Global rules */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #272B30;
+    font-family: Comfortaa, cursive;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Nerko One", cursive;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+/*background image*/
+.background-image{
+    background:rgb(43 47 52 / 100%) url(../Home/wraper.png);
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* #2B2F34 */
+}
+
+/*navbar*/
+.navbar{
+    background-color: #3A497B;
+    border-radius: 20px;
+    transform: translateY(-50%);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 1);
+    color: white;
+}
+.game img{
+    height: 50px;
+    width: 50px;
+}
+.game h1{
+    font-size: 20px;
+    line-height: 24px;
+    transform: translateY(30%);
+    font-weight: 500;
+}
+.category ul{
+    list-style: none;
+    font-size: 12px;
+}
+.nav-item{
+    padding: 0 10px;
+
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show , .nav-link:focus{
+    color: #0691C4;
+}
+.category ul li a:hover{
+    color: #0691C4;
+}
+
+/*card*/
+.card{
+    background-color: #272B30;
+    transition: 1s;
+    display: inline-block;
+    height: 400px;
+    overflow: hidden;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.card:hover img{
+    filter: brightness(1);
+    
+}
+.card:hover .card-title button{
+    background-color:#0D6EFD ;
+}
+.card-title{
+    color: white;
+}
+.card-title h2{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+}
+.card-title button{
+    background-color: #3A497B;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px 10px;
+    border: none;
+    transition: 1s;
+}
+.card-text{
+    text-align: center;
+    color: #939598;
+    font-size: 14px;
+    line-height: 21px;
+}
+hr{
+    background-color: black;
+    width: 100%;
+    height: 2px;
+}
+.details{
+    font-size: 11px;
+}
+.card img{
+    filter: brightness(0.3);
+    transition: 1s;
+}
+/*description*/
+.description h1 , .description h2{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+}
+.description img{
+    width: 100%;
+    height: 250px;
+}
+.description p{
+    line-height: 24px;
+}
+.description p span{
+    background-color: #0DCAF0;
+    padding: 2.5px 5px;
+    color: black;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 700;
+    border-radius: 3px;
+    border: none;
+}
+.btn-outline-warning{
+    --bs-btn-color: white;
+    --bs-btn-hover-color: white;
+}
+
+.close{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 10%;
+    top: 4%;
+}
+.close i{
+    color: gray;
+    font-size: 30px;
+}
+.close i:hover{
+    color: rgb(255 255 255 / 70%);
+}
